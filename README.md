@@ -8,14 +8,11 @@ Each guide includes repeatable steps for analyzing security incidents, enhancing
 
 ## 🔍 Playbooks  
 Step-by-step guides for common SOC analyst investigations.
+ 
+### 📘 Phishing Email Investigation Playbook
+[📝 Read the Playbook](./Phishing_Playbook/Phishing_Playbook.md)
 
-### • [Phishing Email Investigation Playbook](./Phishing_Playbook/Phishing_Playbook.md)  
-A comprehensive walkthrough for analyzing phishing emails:  
-- Email header review  
-- Malicious link analysis  
-- Attachment inspection  
-- IOC extraction and enrichment  
-- Final verdict and response actions
+A step-by-step guide for investigating phishing emails using real-world scenarios. Covers header analysis, link inspection, attachment triage, IOC enrichment, and response actions. Includes screenshots and tool references for SOC analysts.
 
 ---
 
