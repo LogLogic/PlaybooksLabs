@@ -19,6 +19,7 @@ This playbook guides SOC analysts through a structured investigation of phishing
 
 ### Example from German PayPal Phishing  
 - Return-Path domain `designclub.uk.com` unrelated to PayPal.
+  
   ![Return-Path Screenshot](./screenshots/return-path.png)  
 - Randomized subdomain `rjttznyzjzjydnillquh` signals mass phishing.  
 - **Conclusion:** Likely spoofed sender.
