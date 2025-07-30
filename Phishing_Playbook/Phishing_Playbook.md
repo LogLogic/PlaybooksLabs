@@ -20,7 +20,8 @@ This playbook guides SOC analysts through a structured investigation of phishing
 ### Example from German PayPal Phishing  
 - Return-Path domain `designclub.uk.com` unrelated to PayPal.
   
-  ![Return-Path Screenshot](./screenshots/return-path.png)  
+  ![Return-Path Screenshot](./screenshots/return-path.png)
+  
 - Randomized subdomain `rjttznyzjzjydnillquh` signals mass phishing.  
 - **Conclusion:** Likely spoofed sender.
 
@@ -39,9 +40,13 @@ This playbook guides SOC analysts through a structured investigation of phishing
 
 ### Example from German PayPal Phishing  
 - Obfuscated link decoded to `storage.googleapis.com/hqyoqzatqthj/aemmfcylvxeo.html`.
-  ![Decoded Link Screenshot](./screenshots/phishing-link.png)  
+  
+  ![Decoded Link Screenshot](./screenshots/phishing-link.png)
+  
 - VirusTotal flagged hosted object as phishing content.
-  ![VirusTotal Detection Screenshot](./screenshots/virustotal-analysis2.png)  
+  
+  ![VirusTotal Detection Screenshot](./screenshots/virustotal-analysis2.png)
+  
 - Although the domain is legitimate Google Cloud Storage, attackers abuse such services.
 
 ---
@@ -59,10 +64,15 @@ This playbook guides SOC analysts through a structured investigation of phishing
 
 ### Example from United Scientific Equipment Phishing  
 - ZIP attachment `united_scientific_equipent.zip` contained `.exe` with typo in name (`equipent`).
-  ![Extracted File Screenshot](./screenshots/attachment.png)  
+  
+  ![Extracted File Screenshot](./screenshots/attachment.png)
+  
 - The `.exe` file’s SHA-256 hash was generated using `certutil` command.
-  ![Hash Lookup Screenshot](./screenshots/sha-lookup.png)   
+  
+  ![Hash Lookup Screenshot](./screenshots/sha-lookup.png)
+    
 - VirusTotal flagged the hash as malware.
+  
   ![VirusTotal Result Screenshot](./screenshots/virustotal.png)  
 
 ---
